@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.App-item{
+  margin: 8px;
+  padding: 25px 35px;
+  border: solid white 1px;
+  font-weight: 600;
+  background-color: rgba(255,255,255,0.1);
+  font-size: 2em;
+  display: inline-block;
+  vertical-align: top;
+  width:calc(30% - 10px);
+  min-width: 270px;
+}
+
+.App-item h1{
+  font-weight: 200;
+  font-size: 0.5em;
+  color: rgba(255,255,255,0.5);
+  margin-top:0px;
+}
+
+.App-item .Current{
+  font-weight: 200;
+  font-size: 0.5em;
+  margin-bottom: 0px;
+}
+
+.Good{
+  color:forestgreen;
+}
+
+.Medium{
+  color:orange;
+}
+
+.Bad{
+  color:crimson;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.dtp-container input[type=text]{
+  padding: 8px 10px;
+  border:1px solid #333333;
+}
+
+.dtp-container{
+  text-align: left;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.dtp-label{
+  display: block;
+  font-size: 0.9em;
+  color:rgba(255,255,255,0.75);
+  padding-bottom:2px;
+}
+
+.dtp{
+  display: block;
+}
+
+.react-datepicker {
+
+    border-radius: 0;
+
+}
+
+.DateTimeSearch{
+  width: 100%;
+  background: rgba(255,255,255, 0.4);
+  padding-bottom:10px;
+  margin-bottom:45px;
+}
